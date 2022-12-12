@@ -1,0 +1,155 @@
+body {
+    /* margin: 0; */
+    margin-right: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #140F2D;
+    color: #FFFFFF;
+}
+
+#footer {
+    padding: 3rem;
+    text-align: center;
+    background-color: #140F2D;
+    color: #FFFFFF;
+}
+
+.workTBTH {
+    padding: 10px;
+    border: 1px solid #D72638;
+}
+
+/* .aboutLeft {
+    width: fit-content;
+    text-align: center;
+} */
+
+.aboutVid {
+    max-width: 100%;
+}
+
+.chapters {
+    padding: 1%;
+    background-color: #639FAB;
+    color: white;
+    width: fit-content;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+@media (min-width: 576px){
+    .col-sm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 992px){
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+.contact {
+    border: 1px solid #140F2D;
+    border-radius: 20px;
+    max-width: fit-content;
+    padding: 2rem;
+    margin: 2rem auto;
+    background-color: #BBCDE5;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.inline {
+    display: inline-block;
+    height: 100%;
+}
+
+.nameHeader {
+    background-color: #BBCDE5;
+}
+
+.nameHeader td {
+    margin: auto 10%;
+}
+
+.navbar {
+    margin: 0;
+    text-align: end;
+    list-style-type: none;
+    background-color: #222222;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    opacity: 50%;
+}
+
+.navbar li {
+    display: inline;
+    margin: auto 3rem;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.txtBox {
+    margin: 3%;
+    padding: 3rem;
+    border: 1px solid #94958B;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+.workTable {
+    margin: auto;
+    width: fit-content;
+}
